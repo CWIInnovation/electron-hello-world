@@ -1,0 +1,16 @@
+{
+  "name": "electron-hello-world",
+  "version": "1.0.0",
+  "description": "Hello World!",
+  "main": "main.js",
+  "scripts": {
+    "run": "electron .",
+    "build": "electron-packager . electron-hello-world --platform=win32 --arch=x64 --version=0.33.1 --out=./bin/ --overwrite"
+  },
+  "author": "Fábio",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^0.4.1",
+    "electron-packager": "^5.1.0"
+  }
+}
